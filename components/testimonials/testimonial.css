@@ -1,0 +1,17 @@
+.slick-dots {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+    margin-top: 0 20px;
+  
+  }
+  
+  .slick-dots li {
+    width: 100% !important;
+    margin-right: 15px !important;
+    margin-left: 15px !important;
+    cursor: default;
+  }
+  
+  
+  
