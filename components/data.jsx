@@ -376,3 +376,26 @@ export const serviceData = {
   ]
 }
 
+export const aboutTeam = [
+  {
+    bbtImg: "/assets/images/15.jpg",
+    title: "Alexander Jackson",
+    track: "Service Support"
+  },
+  {
+    bbtImg: "/assets/images/13.jpg",
+    title: "Emma Johnson",
+    track: "Marketing"
+  },
+  {
+    bbtImg: "/assets/images/14.jpg",
+    title: "Isabella Patel",
+    track: "Nursing Assistant"
+  },
+  {
+    bbtImg: "/assets/images/16.jpg",
+    title: "Benjamin Kim",
+    track: "Accountant"
+  },
+];
+
