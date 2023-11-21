@@ -25,7 +25,7 @@ const Pricing = () => {
           </p>
         </div>
         <div>
-          <div className="mt-5 mb-8 grid grid-cols-1 place-content-center gap-5 md:grid-cols-2 md:gap-8 lg:grid-cols-3 xxl:mt-10">
+          <div className="mt-5 pb-16 grid grid-cols-1 place-content-center gap-5 md:grid-cols-2 md:gap-8 lg:grid-cols-3 xxl:mt-10">
             {pricingData.map((item) => {
               return (
                 <div key={item.id} className="group">
