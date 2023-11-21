@@ -1,6 +1,5 @@
 import React from "react";
 import { shopCategoryData } from "@/components/shopData";
-import { useCart } from "../CartContext";
 import CommonShop from "../CommonShop";
 
 const Exterior = () => {
