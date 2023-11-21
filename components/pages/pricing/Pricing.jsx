@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import Link from "next/link";
 import { pricingData } from "@/components/data";
 import { IoCheckmark } from "react-icons/io5";

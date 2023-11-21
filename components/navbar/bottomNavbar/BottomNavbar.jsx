@@ -36,7 +36,7 @@ const BottomNavbar = () => {
 
   return (
     <div>
-      <nav className="mx-auto max-w-[1220px] relative flex justify-between items-center py-4 px-4 z-30 text-secondary md:px-6 lg:max-w-[991px] xl:py-7  xl:px-8 xxl:max-w-[1355px]">
+      <nav className="mx-auto max-w-[1220px] relative flex justify-between items-center py-4 px-4 z-50 text-secondary md:px-6 lg:max-w-[991px] xl:py-7  xl:px-8 xxl:max-w-[1355px]">
         <Link href="/">
           <div className="flex items-center gap-2 relative text-secondary">
             <div className="bg-primary w-11 h-11 rounded-full">

@@ -351,5 +351,28 @@ export const pricingData = [
     id: 3,
     category: "Pricing"
   },
-]
+];
+
+export const serviceData = {
+  services: [
+    {
+      serviceImg: "/assets/images/service1.jpg",
+      title: "Oil Changes",
+      description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.",
+      id: 1,
+    },
+    {
+      serviceImg: "/assets/images/car1.jpg",
+      title: "Air Conditioning​",
+      description: "Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur.",
+      id: 2
+    },
+    {
+      serviceImg: "/assets/images/car1.jpg",
+      title: "Auto Electric​",
+      description: "Vel illum dolore eu feugiat nulla facilisis at vero eros et accu qui blandit praesent luptatum zzril.",
+      id: 3
+    },
+  ]
+}
 
