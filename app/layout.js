@@ -2,7 +2,6 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/navbar/Navbar'
 import Footer from '@/components/footer/Footer'
-import { CartProvider } from '@/components/pages/shop/CartContext'
 import { CombinedCartProvider } from '@/components/CombinedCartProvider'
 
 const inter = Inter({ subsets: ['latin'] })

@@ -92,7 +92,7 @@ const LeftBar = ({ LeftBarIsOpen, setLeftBarIsOpen }) => {
                 {item.title === "Pages" && (
                   <>
                     {isDropdownVisible && (
-                      <ul className="w-full px-10  mb-4 space-y-2 text-[14px]">
+                      <ul className="w-full px-10  mb-4 space-y-3 text-[14px]">
                         {item.pageItem.map((subItem) => (
                           <div key={subItem.id} className="">
                             <div className="w-full h-[0.5px] bg-gray-500 bg-opacity-70" />
@@ -119,7 +119,7 @@ const LeftBar = ({ LeftBarIsOpen, setLeftBarIsOpen }) => {
           <section
             className={`${
               isDropdownVisible
-                ? "absolute bottom-0 text-white px-4 pb-2 w-full text-[13px] leading-10"
+                ? "absolute -bottom-16 text-white px-4 pb-2 w-full text-[13px] leading-10"
                 : "absolute bottom-10 text-white px-4 w-full text-[13px] leading-10"
             }`}
           >

@@ -1,11 +1,3 @@
-import { SlPhone } from "react-icons/sl";
-import { SlLocationPin } from "react-icons/sl";
-import { AiOutlineClockCircle } from "react-icons/ai";
-import { TiSocialFacebook } from "react-icons/ti";
-import { TiSocialTwitter } from "react-icons/ti";
-import { LiaInstagram } from "react-icons/lia";
-import { TiSocialLinkedin } from "react-icons/ti";
-import { IoMdArrowDropdown } from "react-icons/io";
 import { BiSolidStar } from "react-icons/bi";
 import { BiSolidStarHalf } from "react-icons/bi";
 import { BiStar } from "react-icons/bi";

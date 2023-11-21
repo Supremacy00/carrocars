@@ -3,12 +3,13 @@ import Link from "next/link";
 import React from "react";
 import { FaCircleCheck } from "react-icons/fa6";
 import { serviceData } from "@/components/data";
+import ScheduleService from "./ScheduleService";
 
 const Services = () => {
   return (
     <section className="bg-[#f8f8f8] border-t-[1px] border-gray-200">
       <div className="mx-auto px-4 md:max-w-[991px] md:px-6 xl:px-8 xxl:max-w-[1355px]">
-        <div className="md:flex justify-between items-center mt-5">
+        <div className="md:flex justify-between items-center py-5 md:py-7 xl:py-10">
           <h1 className="text-[25px] text-secondary font-semibold xl:text-[33px]">
             Service
           </h1>
@@ -20,7 +21,7 @@ const Services = () => {
             <span>Service</span>
           </p>
         </div>
-        <div className="mt-4">
+        <div className="mb-16">
           <div className="md:flex items-center gap-5 md:gap-3 xxl:gap-5">
             <div>
               <h1 className="text-lg text-secondary font-semibold mb-4 lg:text-2xl">
@@ -95,7 +96,7 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full mt-10 md:w-[65%] md:h-[90%] lg:w-[75%] lg:h-[100%] xxl:w-[70%] h-[70%]">
+            <div className="w-full mt-10 md:mt-0 md:w-[65%] md:h-[90%] lg:w-[75%] lg:h-[100%] xxl:w-[70%] h-[70%]">
               <Image
                 src="/assets/images/service1.jpg"
                 alt="service logo"
@@ -107,29 +108,36 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <section className="mx-auto px-4 mt-20 md:max-w-[991px] md:px-6 xl:px-8 xxl:max-w-[1355px]">
-        <ul className="">
-          {serviceData.services.map((item) => {
-            return (
-              <li key={item.id}>
-                <div>
-                  <div className="max-w-full h-[40%]">
-                    <Image
-                      src={item.serviceImg}
-                      alt={item.title}
-                      width={200}
-                      height={200}
-                      className="w-full"
-                    />
+      <section className="px-4 bg-white py-16">
+        <div className="mx-auto md:max-w-[991px] md:px-6 xl:px-8 xxl:max-w-[1355px]">
+          <ul className="grid grid-cols-1 gap-8 md:grid-cols-3">
+            {serviceData.services.map((item) => {
+              return (
+                <li key={item.id}>
+                  <div>
+                    <div className="w-full ">
+                      <Image
+                        src={item.serviceImg}
+                        alt={item.title}
+                        width={1000}
+                        height={1000}
+                        className=""
+                      />
+                    </div>
+                    <h2 className="text-lg text-secondary font-semibold my-4">
+                      {item.title}
+                    </h2>
+                    <p className="text-[13px] text-[#5F6973]">
+                      {item.description}
+                    </p>
                   </div>
-                  <h2>{item.title}</h2>
-                  <p>{item.description}</p>
-                </div>
-              </li>
-            );
-          })}
-        </ul>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
       </section>
+      <ScheduleService />
     </section>
   );
 };
