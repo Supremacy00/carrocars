@@ -67,7 +67,7 @@ const BottomNavbar = () => {
                   <div
                     className={`${
                       activeNavItem === item ? "text-hover-blue" : ""
-                    }`}
+                    }hover:text-hover-blue`}
                     onClick={handleClick}
                   >
                     {item.title}
