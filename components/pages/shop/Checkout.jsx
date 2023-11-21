@@ -2,11 +2,13 @@ import { lastIndexOf } from "lodash";
 import React, { useState } from "react";
 import { FaTruck } from "react-icons/fa";
 import { IoMdArrowDropdown } from "react-icons/io";
+import { useCombinedCart } from "@/components/CombinedCartProvider";
 
 const Checkout = () => {
   const [isAddress, setIsAddress] = useState(false);
   const [countries, setCountries] = useState("United States of America");
   const [isArrow, setIsArrow] = useState(false);
+  const {cartItems} = useCombinedCart();
 
   const importantCountries = [
     "United States of America",
