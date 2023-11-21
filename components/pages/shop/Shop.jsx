@@ -48,22 +48,22 @@ const Shop = () => {
                     <select
                       name=""
                       id=""
-                      className="block w-full pl-3 pr-20 py-2.5 min-w-20 text-[#5F6973] outline-none border-[1px] border-gray-200 rounded-lg appearance-none"
+                      className="block w-full pl-3 pr-6 py-2.5 min-w-20 text-[#5F6973] outline-none border-[1px] border-gray-200 rounded-lg appearance-none"
                     >
+                      <option value="" className="py-2 px-4">
+                        Sort by popularity
+                      </option>
+                      <option value="" className="py-2 px-4">
+                        Sort by average rating
+                      </option>
                       <option value="" className="py-2 px-4">
                         Sort by latest
                       </option>
                       <option value="" className="py-2 px-4">
-                        2
+                        Sort by price: low to high
                       </option>
                       <option value="" className="py-2 px-4">
-                        3
-                      </option>
-                      <option value="" className="py-2 px-4">
-                        4
-                      </option>
-                      <option value="" className="py-2 px-4">
-                        5
+                        Sort by price: high to low
                       </option>
                     </select>
                     <div className="absolute inset-y-0 right-0 flex items-center text-gray-400 px-2 pointer-events-none">
