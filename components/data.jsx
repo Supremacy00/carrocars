@@ -341,7 +341,7 @@ export const pricingData = [
     category: "Pricing"
   },
   {
-    title: "Basic",
+    title: "Extended",
     Recommended: false,
     price: 799,
     listings: "100 Listings Posting",
@@ -356,19 +356,19 @@ export const pricingData = [
 export const serviceData = {
   services: [
     {
-      serviceImg: "/assets/images/service1.jpg",
+      serviceImg: "/assets/images/service2.jpg",
       title: "Oil Changes",
-      description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.",
+      description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.      ",
       id: 1,
     },
     {
-      serviceImg: "/assets/images/car1.jpg",
+      serviceImg: "/assets/images/service3.jpg",
       title: "Air Conditioning​",
       description: "Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur.",
       id: 2
     },
     {
-      serviceImg: "/assets/images/car1.jpg",
+      serviceImg: "/assets/images/service4.jpg",
       title: "Auto Electric​",
       description: "Vel illum dolore eu feugiat nulla facilisis at vero eros et accu qui blandit praesent luptatum zzril.",
       id: 3
