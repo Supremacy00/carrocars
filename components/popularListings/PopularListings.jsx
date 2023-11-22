@@ -66,7 +66,7 @@ const PopularListings = () => {
                 className="border-[1px] w-full  group border-gray-200 rounded-lg pt-2.5 px-2.5" 
               >
                 <div className="relative">
-                  <div className="max-w-full h-[300px] bg-nav-bg-color bg-opacity-10 rounded-lg group-hover:bg-opacity-40 sm:h-[390px] md:h-[200px] ">
+                  <div className="max-w-full h-[300px] bg-nav-bg-color bg-opacity-10 rounded-lg transition-all duration-600 delay-200 ease-in-out group-hover:bg-opacity-40 sm:h-[390px] md:h-[200px] ">
                     <Image
                       src={item.flImg}
                       alt="Feature Listing Image"
@@ -94,7 +94,7 @@ const PopularListings = () => {
                         item.featured
                           ? "flex items-center justify-between "
                           : "flex items-center justify-between  "
-                      } invisible group-hover:visible transition-transform cursor-default  `}
+                      } invisible group-hover:visible transition-all duration-600 delay-200 ease-in-out cursor-default  `}
                     >
                       <div className="flex items-center gap-0.5 w-full">
                         <IoIosCamera className="text-[21px] cursor-default" />
