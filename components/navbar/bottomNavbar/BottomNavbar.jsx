@@ -83,7 +83,7 @@ const BottomNavbar = () => {
                   onMouseLeave={handleMouseLeave}
                 >
                   {isPagesHovered && item.pageItem && (
-                    <ul className="absolute left-0 top-full pt-5 bg-whitespace-y-5 bg-white z-50 border-[1px] w-[240px] h-[270px] rounded-xl transition-all delay-300 duration-300 ease-in-out">
+                    <ul className="absolute left-0 top-full pt-5 bg-white z-50 border-[1px] w-[240px] h-[270px] rounded-xl">
                       {item.pageItem.map((subItem) => (
                         <li
                           key={subItem.id}

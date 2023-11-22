@@ -22,7 +22,7 @@ const UsedCars = () => {
                   className="flex items-center inset-0 border-[1px] group border-gray-200 rounded-lg py-2.5 pl-2.5 md:py-3.5 xl:py-2.5"
                 >
                   <div className="relative cursor-pointer">
-                    <div className="max-w-[120px] h-[100px] bg-nav-bg-color bg-opacity-10 rounded-lg group-hover:bg-opacity-40 lg:max-w-[180px] lg:h-[150px] xl:max-w-[260px] xl:h-[170px] xxl:h-[210px]">
+                    <div className="max-w-[120px] h-[100px] bg-nav-bg-color bg-opacity-10 rounded-lg transition-all duration-600 delay-200 ease-in-out  group-hover:bg-opacity-40 lg:max-w-[180px] lg:h-[150px] xl:max-w-[260px] xl:h-[170px] xxl:h-[210px]">
                       <Image
                         src={item.ucImg}
                         alt="Feature Listing Image"
@@ -46,7 +46,7 @@ const UsedCars = () => {
                           item.ucFeatured
                             ? "flex items-center justify-between mt-7 px-1 lg:mt-[75px] lg:px-3 xl:mt-[95px] xxl:mt-[133px]"
                             : "flex items-center justify-between mt-[62px] px-1 lg:mt-[113px] lg:px-3 xl:mt-[133px] xxl:mt-[172px] "
-                        } invisible group-hover:visible transition-transform cursor-default  `}
+                        } invisible group-hover:visible transition-all duration-600 delay-200 ease-in-out cursor-default  `}
                       >
                         <div className="flex items-center gap-0.5">
                           <IoIosCamera className="text-[21px] cursor-default" />
