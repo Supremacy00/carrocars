@@ -69,7 +69,7 @@ const Blog = () => {
 
   return (
     <section className="pb-12">
-      <div className="relative z-40 ">
+      <div className="relative z-30 ">
         <div
           className="relative w-full h-[130px] bg-cover bg-center md:h-[105px] xl:h-[230px]"
           style={{ backgroundImage: 'url("/assets/images/car1.jpg")' }}

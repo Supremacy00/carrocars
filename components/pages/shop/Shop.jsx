@@ -79,7 +79,7 @@ const Shop = () => {
         </section>
       </div>
       <div
-        className="fixed top-1/3 right-0  z-50 lg:hidden w-9 h-10 bg-nav-bg-color bg-opacity-80 rounded-l-md cursor-pointer hover:bg-nav-bg-color transition-all duration-300 delay-100 ease-in-out"
+        className="fixed top-1/3 right-0 z-50 lg:hidden w-9 h-10 bg-nav-bg-color bg-opacity-80 rounded-l-md cursor-pointer hover:bg-nav-bg-color transition-all duration-300 delay-100 ease-in-out"
         onClick={handleShopNav}
       >
         {!isShopNav ? (
