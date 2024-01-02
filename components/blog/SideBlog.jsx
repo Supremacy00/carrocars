@@ -1,5 +1,5 @@
-'use client'
-import React, { useState } from 'react'
+
+import React from 'react'
 import { blogData } from "@/components/data";
 import Image from 'next/image';
 
@@ -28,10 +28,10 @@ const SideBlog = () => {
             <div className='mx-auto w-[300px] border-[1px] mt-8 border-gray-200 bg-[#F9F9F9] rounded-lg p-4 lg:w-full xl:p-8'>
                 <h1 className='text-[16px] text-secondary font-semibold mb-5'>Categories</h1>
                 <ul className='text-[13px] text-secondary'>
-                    <li className='mb-5'>Auto Detailing</li>
-                    <li className='mb-5'>Car News</li>
-                    <li className='mb-5'>Car Reviews</li>
-                    <li>Classic Cars</li>
+                    <li className='mb-5 hover:text-blue-700 cursor-pointer'>Auto Detailing</li>
+                    <li className='mb-5 hover:text-blue-700 cursor-pointer'>Car News</li>
+                    <li className='mb-5 hover:text-blue-700 cursor-pointer'>Car Reviews</li>
+                    <li className='hover:text-blue-700 cursor-pointer'>Classic Cars</li>
                 </ul>
             </div>
             <div className='mx-auto w-[300px] border-[1px] mt-8 border-gray-200 bg-[#F9F9F9] rounded-lg p-4 lg:w-full xl:p-8'>
@@ -41,7 +41,7 @@ const SideBlog = () => {
                         return (
                           <div key={item.id} className='flex gap-3'>
                                 <Image src={item.blogImg} alt={item.blogTitle} width={1000} height={100} className='w-[80px] h-[70px] rounded-lg'/>
-                                <h3 className='text-[13px] text-secondary leading-6 '>{item.blogTitle}</h3>
+                                <h3 className='text-[13px] text-secondary leading-6 hover:text-blue-700 cursor-pointer '>{item.blogTitle}</h3>
                           </div>  
                         )
                     })}

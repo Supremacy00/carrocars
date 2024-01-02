@@ -33,7 +33,7 @@ const LeftBar = ({ LeftBarIsOpen, setLeftBarIsOpen }) => {
       <div
         className={`${
           !LeftBarIsOpen ? "w-[430px] max-w-full bg-nav-bg-color" : " w-0"
-        } fixed top-0 left-0 h-screen overflow-y-auto z-50 xl:hidden transition-transform -translate-x-`}
+        } fixed top-0 left-0 h-screen overflow-y-auto z-50 xl:hidden`}
       >
         <section>
           <div className="bg-white w-full flex justify-between items-center py-4 px-4">
