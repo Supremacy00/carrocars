@@ -8,7 +8,7 @@ import Testimonials from "../testimonials/Testimonials";
 const About = () => {
   return (
     <section>
-      <div className="relative z-40 ">
+      <div className="relative z-30 ">
         <div
           className="relative w-full h-[130px] bg-cover bg-center md:h-[105px] xl:h-[230px]"
           style={{ backgroundImage: 'url("/assets/images/car2.jpg")' }}
@@ -47,7 +47,7 @@ const About = () => {
           </div>
           <div>
             <h1 className="text-[20px] text-secondary font-semibold mt-8 md:mt-0 md:text-[24px] lg:text-[30px]">
-              Welcome To The Voiture
+              Welcome To The Carro
             </h1>
             <p className="text-[13px] text-[#5F6973] leading-6 mt-4">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
